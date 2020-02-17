@@ -1,65 +1,59 @@
-body{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
 }
 
-header,
-main,
-footer{
-    width: 1024px;
-    max-width: 1024px;
-    margin: 0 auto;
-    display: flex;
+header, main, footer {
+  width: 1024px;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
 }
 
 nav {
-    width: 500px;
+  width: 500px;
 }
 
 h3 {
-    text-transform: capitalize;
-    margin-left: 10px;
+  text-transform: capitalize;
+  margin-left: 10px;
 }
 
 header {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .navigation {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .navigation li {
-    flex: 3;
-    justify-content: center;
+  flex: 3;
+  justify-content: center;
 }
 
-
-
 main {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .container img {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 #hobby img {
-    margin-left: 20px;
+  margin-left: 20px;
 }
