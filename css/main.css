@@ -1,0 +1,18 @@
+body{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+main,
+footer{
+    border: 1px solid black;
+    width: 1024px;
+    max-width: 1024px;
+    margin: 0 auto ;
+}
+
+h3 {
+    text-transform: capitalize;
+}
