@@ -4,7 +4,9 @@ body {
   flex-direction: column;
 }
 
-header, main, footer {
+header,
+main,
+footer {
   width: 1024px;
   max-width: 1024px;
   margin: 0 auto;
@@ -54,6 +56,6 @@ main {
   margin-right: 20px;
 }
 
-#hobby img {
+.hobby img {
   margin-left: 20px;
 }
